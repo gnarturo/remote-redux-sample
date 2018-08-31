@@ -8,5 +8,6 @@ const store = createStore(reducer,
 
 
 store.dispatch({type: 'INCREASE_COUNTER'})
-store.dispatch({type: 'INCREASE_COUNTER'})
+
 store.dispatch({type: 'UPDATE_TIMESTAMP'})
+
