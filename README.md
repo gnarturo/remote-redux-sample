@@ -5,11 +5,19 @@ More details behind the philsophy can be found on his [Medium Blog Post](https:/
 
 # Usage
 ## To run the local client
->cd client
->npm run local
+```
+cd client
+npm run local
+```
 
 ## To run the remote client
->cd server
->npm start
->cd client
->npm run remote
+### Start the server in a separate terminal
+```
+cd server
+npm start
+```
+### Run the client
+```
+cd client
+npm run remote
+```
