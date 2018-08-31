@@ -1,0 +1,17 @@
+{
+  "main": "index.js",
+  "scripts": {
+    "remote": "babel-node appRemote.js --presets es2015,stage-2",
+    "local": "babel-node app.js --presets es2015,stage-2"
+  },
+  "dependencies": {
+    "node-fetch": "^2.2.0",
+    "redux": "^4.0.0",
+    "remote-redux": "0.0.6"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1"
+  }
+}
